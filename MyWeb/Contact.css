@@ -1,0 +1,67 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    background: url(istockphoto-1033277722-170667a.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: 100%;    
+}
+.Parent
+{ 
+    height: 80vh;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.child{
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+
+.child input
+{
+    height: 28px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 55%;
+    background-color: rgba(243, 241, 241, 0.979);
+    border: none;
+    border-radius: 5px;
+    
+}
+.child textarea
+{
+    background-color: rgba(243, 241, 241, 0.979);
+    border: none;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.button
+{
+    height: 25px;
+    width: 90px;
+    border-radius: 7px;
+    background-color: rgb(255, 136, 0);   
+}
+.btn:hover
+{
+    background-color: rgb(255, 237, 79);
+    transition: 1s; 
+}
+.up
+{
+   display: flex;
+   justify-content: space-between;
+
+}
+.up #contact{
+    margin-left: 10px;
+    font-size: 60px;
+}
+
+
+
+
+
